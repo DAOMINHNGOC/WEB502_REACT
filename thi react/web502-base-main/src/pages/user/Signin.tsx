@@ -1,6 +1,5 @@
 import { Button, Form, Input, Select } from 'antd';
 import React from 'react';
-import { IProduct } from '../../types/products';
 import { ISignin } from '../../types/user';
 
 const { Option } = Select;
@@ -15,7 +14,7 @@ const tailLayout = {
 };
 
 type Props = {
-    onSignin: (pro: ISignin) => void
+    onSignin: (user: ISignin) => void
 }
 
 const Signin = ({ onSignin }: Props) => {
@@ -57,10 +56,6 @@ const Signin = ({ onSignin }: Props) => {
                         {
                             required: true,
                             message: 'Please input your password!',
-                        },
-                        {
-                            min: 6,
-                            message: 'Mật khẩu k được dưới 6 ký tự',
                         },
                     ]}
                     hasFeedback

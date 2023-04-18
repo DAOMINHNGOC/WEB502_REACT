@@ -56,6 +56,13 @@
       "name": "ngoc",
       "confirm": "123456",
       "id": 5
+    },
+    {
+      "email": "ngoc12345@gmail.com",
+      "password": "$2a$10$9s7IEzkK1vRNvASigPdSFu3Vf/u8GAwqoxEarLVEVDq.r1hsLMG92",
+      "name": "a",
+      "confirm": "123456",
+      "id": 6
     }
   ],
   "roles": [
